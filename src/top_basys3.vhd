@@ -76,7 +76,7 @@ architecture top_basys3_arch of top_basys3 is
 begin
 	-- PORT MAPS --------------------
     w_Cin <= sw(0);
-    w_A <= sw(4 downto 2);
+    w_A <= sw(4 downto 1);
     w_B <= sw(15 downto 12);
     
     ripple_adder_0 : ripple_adder
